@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Syne", sans-serif;
+  color: white;
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 220px;
+  background-color: #111111;
+  height: 100vh;
+  flex-shrink: 0;
+}
+
+.main {
+  flex: 1; /* takes up all remaining space */
+  background-color: #191919;
+}
+
+.app-name {
+  margin-left: 1.5rem;
+  color: #ff785a;
+}
+
+.menu {
+  margin-left: 1.5rem;
+  font-size: 13px;
+  color: grey;
+}
+
+.menu-part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1.5rem;
+}
+
+.all-tasks {
+  margin-left: 0.8rem;
+}
+
+.tasks-number {
+  margin-right: 1.5rem;
+  color: #666;
+  background-color: #2a2a2a;
+  padding: 2px 9px;
+  border-radius: 12px;
+}
+.menu-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background: #666;
+}
+
+.list {
+  margin-left: 1.5rem;
+  font-size: 13px;
+  color: grey;
+}
+
+.list-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1.5rem;
+}
+
+.lists-number {
+  margin-right: 1.5rem;
+  color: #666;
+  background-color: #2a2a2a;
+  padding: 2px 9px;
+  border-radius: 12px;
+}
+
+.bullet {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
